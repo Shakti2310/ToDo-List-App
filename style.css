@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "poppins";
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #2193b0, #6dd5ed);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    min-width: 16rem;
+    max-height: 24rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: white;
+}   
+
+.inputTab {
+    position: relative;
+}
+
+.inputTab img {
+    width: 1.7rem;
+    padding-left: .5rem;
+}
+
+.inputTab h1 {
+    margin-left: 1rem;
+    color: rgba(0, 0, 0, 0.75);
+    height: 3rem;
+    font-size: 1.4rem;
+}
+
+.row {
+    width: 100%;
+    height: 3rem;
+    background-color: #EDEEF0;
+    border-radius: 2rem;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.row input {
+    padding-left: 2rem;
+    padding-right: .5rem;
+    border: none;
+    outline: none;
+    font-family: 'poppins';
+    background: transparent;
+}
+
+.row button {
+    padding: 0 2.5rem;
+    border-radius: 2rem;
+    background-color: #FF5845;
+    color: white;
+    font-family: 'poppins';
+    font-weight: 500;
+    cursor: grab;
+    font-size: .9rem;
+    border: none;
+}
+
+.task {
+    width: 100%;
+    height: 1rem;
+    padding: 1rem;
+    margin-top: .2rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task button {
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.task button img{
+    width: 1.3rem;
+    mix-blend-mode: multiply;
+}
+
+.task button span{
+    width: 1.3rem;
+    mix-blend-mode: multiply;
+}
